@@ -1,31 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Your Name</h1>
-    <p>Web Developer | Designer | Creator</p>
-  </header>
-
-  <section>
-    <h2>About Me</h2>
-    <p>I’m a developer who loves building cool stuff on the web.</p>
-  </section>
-
-  <section>
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>Weather App</strong> – A website that shows the weather.</li>
-      <li><strong>Portfolio Site</strong> – This website!</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Contact</h2>
-    <p>Email me at yourname@example.com</p>
-  </section>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio! I am a passionate developer with experience in web technologies.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of the project.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of the project.</p>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: example@example.com</p>
+    </section>
+    
+    <script src="script.js"></script>
 </body>
 </html>
